@@ -1,0 +1,14 @@
+[package]
+name = "vault-identity"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Container identities, contact cards and per-swarm participation keys"
+
+[dependencies]
+blake3 = "1"
+ed25519-dalek = { version = "2", features = ["rand_core"] }
+rand = "0.8"
+thiserror = "1"
+x25519-dalek = { version = "2", features = ["static_secrets"] }
+zeroize = "1.8"

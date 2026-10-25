@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-delete-object"
+description = "Enables the delete_object command without any pre-configured scope."
+commands.allow = ["delete_object"]
+
+[[permission]]
+identifier = "deny-delete-object"
+description = "Denies the delete_object command without any pre-configured scope."
+commands.deny = ["delete_object"]

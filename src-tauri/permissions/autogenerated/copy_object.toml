@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-copy-object"
+description = "Enables the copy_object command without any pre-configured scope."
+commands.allow = ["copy_object"]
+
+[[permission]]
+identifier = "deny-copy-object"
+description = "Denies the copy_object command without any pre-configured scope."
+commands.deny = ["copy_object"]

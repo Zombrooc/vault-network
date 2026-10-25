@@ -1,0 +1,10 @@
+[package]
+name = "vault-relay"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Development relay service for Vault Network"
+
+[dependencies]
+ctrlc = "3.4"
+vault-transport = { path = "../vault-transport" }

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-decode-contact-card"
+description = "Enables the decode_contact_card command without any pre-configured scope."
+commands.allow = ["decode_contact_card"]
+
+[[permission]]
+identifier = "deny-decode-contact-card"
+description = "Denies the decode_contact_card command without any pre-configured scope."
+commands.deny = ["decode_contact_card"]

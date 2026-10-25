@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-revoke-swarm"
+description = "Enables the revoke_swarm command without any pre-configured scope."
+commands.allow = ["revoke_swarm"]
+
+[[permission]]
+identifier = "deny-revoke-swarm"
+description = "Denies the revoke_swarm command without any pre-configured scope."
+commands.deny = ["revoke_swarm"]

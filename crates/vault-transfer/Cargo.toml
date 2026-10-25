@@ -1,0 +1,18 @@
+[package]
+name = "vault-transfer"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Bounded encrypted object transfer state machine"
+
+[dependencies]
+blake3 = "1"
+ed25519-dalek = "2"
+rand = "0.8"
+thiserror = "1"
+vault-core = { path = "../vault-core" }
+vault-identity = { path = "../vault-identity" }
+vault-protocol = { path = "../vault-protocol" }
+vault-sharing = { path = "../vault-sharing" }
+vault-transport = { path = "../vault-transport" }
+zeroize = "1.8"

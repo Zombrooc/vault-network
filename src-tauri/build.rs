@@ -1,0 +1,41 @@
+fn main() {
+    tauri_build::try_build(
+        tauri_build::Attributes::new().app_manifest(
+            tauri_build::AppManifest::new().commands(&[
+                "create_container",
+                "unlock_container",
+                "unlock_container_recovery",
+                "activate_container",
+                "lock_container",
+                "list_objects",
+                "list_folders",
+                "create_folder",
+                "rename_folder",
+                "delete_folder",
+                "rename_object",
+                "copy_object",
+                "delete_object",
+                "compact_container",
+                "change_password",
+                "rotate_recovery_key",
+                "rotate_cmk",
+                "export_header_backup",
+                "restore_header_backup",
+                "import_file",
+                "export_file",
+                "preview_image",
+                "decode_contact_card",
+                "create_contact_card",
+                "open_invitation",
+                "download_invitation",
+                "publish_discovery",
+                "query_discovery",
+                "seed_object",
+                "seed_invitation",
+                "revoke_swarm",
+                "create_invitation",
+            ]),
+        ),
+    )
+    .expect("failed to prepare Tauri application");
+}

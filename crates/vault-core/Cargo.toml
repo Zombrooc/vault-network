@@ -1,0 +1,21 @@
+[package]
+name = "vault-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Local encrypted container core for Vault Network"
+
+[dependencies]
+argon2 = "0.5"
+blake3 = "1"
+chacha20poly1305 = "0.10"
+fs2 = "0.4"
+hkdf = "0.12"
+rand = "0.8"
+sha2 = "0.10"
+thiserror = "1"
+vault-identity = { path = "../vault-identity" }
+zeroize = "1.8"
+
+[dev-dependencies]
+tempfile = "3"

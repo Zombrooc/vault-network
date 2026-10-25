@@ -1,0 +1,17 @@
+/target/
+/.aws/
+/.agents/
+/.codex/
+/src-tauri/auahsahsuahs/
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Local vault/container state
+**/.vault/
+**/.vault-network/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp

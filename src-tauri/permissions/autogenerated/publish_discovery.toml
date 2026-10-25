@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-publish-discovery"
+description = "Enables the publish_discovery command without any pre-configured scope."
+commands.allow = ["publish_discovery"]
+
+[[permission]]
+identifier = "deny-publish-discovery"
+description = "Denies the publish_discovery command without any pre-configured scope."
+commands.deny = ["publish_discovery"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-unlock-container-recovery"
+description = "Enables the unlock_container_recovery command without any pre-configured scope."
+commands.allow = ["unlock_container_recovery"]
+
+[[permission]]
+identifier = "deny-unlock-container-recovery"
+description = "Denies the unlock_container_recovery command without any pre-configured scope."
+commands.deny = ["unlock_container_recovery"]

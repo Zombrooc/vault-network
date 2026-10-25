@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-create-container"
+description = "Enables the create_container command without any pre-configured scope."
+commands.allow = ["create_container"]
+
+[[permission]]
+identifier = "deny-create-container"
+description = "Denies the create_container command without any pre-configured scope."
+commands.deny = ["create_container"]

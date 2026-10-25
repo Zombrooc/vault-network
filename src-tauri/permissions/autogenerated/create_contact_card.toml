@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-create-contact-card"
+description = "Enables the create_contact_card command without any pre-configured scope."
+commands.allow = ["create_contact_card"]
+
+[[permission]]
+identifier = "deny-create-contact-card"
+description = "Denies the create_contact_card command without any pre-configured scope."
+commands.deny = ["create_contact_card"]

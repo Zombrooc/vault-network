@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/vault-core", "crates/vault-protocol", "crates/vault-identity", "crates/vault-sharing", "crates/vault-discovery", "crates/vault-transport", "crates/vault-transfer", "crates/vault-relay", "src-tauri"]
+resolver = "2"

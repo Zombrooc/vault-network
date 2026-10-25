@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-compact-container"
+description = "Enables the compact_container command without any pre-configured scope."
+commands.allow = ["compact_container"]
+
+[[permission]]
+identifier = "deny-compact-container"
+description = "Denies the compact_container command without any pre-configured scope."
+commands.deny = ["compact_container"]

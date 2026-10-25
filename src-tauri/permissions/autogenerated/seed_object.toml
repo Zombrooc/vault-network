@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-seed-object"
+description = "Enables the seed_object command without any pre-configured scope."
+commands.allow = ["seed_object"]
+
+[[permission]]
+identifier = "deny-seed-object"
+description = "Denies the seed_object command without any pre-configured scope."
+commands.deny = ["seed_object"]

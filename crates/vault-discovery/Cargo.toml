@@ -1,0 +1,12 @@
+[package]
+name = "vault-discovery"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake3 = "1"
+ed25519-dalek = "2"
+hkdf = "0.12"
+sha2 = "0.10"
+thiserror = "1"
+vault-identity = { path = "../vault-identity" }

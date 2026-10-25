@@ -1,0 +1,28 @@
+[package]
+name = "vault-network"
+version = "0.1.0"
+description = "Vault Network desktop application"
+authors = ["Vault Network"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+blake3 = "1"
+image = "0.25"
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+vault-core = { path = "../crates/vault-core" }
+vault-discovery = { path = "../crates/vault-discovery" }
+vault-identity = { path = "../crates/vault-identity" }
+vault-protocol = { path = "../crates/vault-protocol" }
+vault-sharing = { path = "../crates/vault-sharing" }
+vault-transfer = { path = "../crates/vault-transfer" }
+vault-transport = { path = "../crates/vault-transport" }
+zeroize = "1.8"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
